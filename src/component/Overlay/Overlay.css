@@ -1,0 +1,10 @@
+.overlay-container {
+    display: grid;
+    grid-template-columns: repeat(4, var(--size));
+    grid-template-rows: repeat(4, var(--size));
+}
+.overlay{
+    border : 10px solid pink;
+    pointer-events: none;
+    z-index: 20 !important; 
+}
